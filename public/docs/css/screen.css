@@ -1,0 +1,107 @@
+/* Colours */
+
+*
+{
+	margin:0;
+	padding:0;
+}
+body{
+/*	background:url("../../images/stepinfo_loog_130.png") repeat; */
+
+}
+body, a { color: #222; }
+a { border-bottom: 1px solid #ccc; }
+em { color: #999; }
+em a {
+/*
+ color: #666; 
+*/
+}
+em.background { color: #BBB; }
+
+/* Typography */
+
+body, input { font-family: "Helvetica", helvetica, "Helvetica Neue", arial, sans-serif; line-height: 1.3; }
+ul li, p, em { font-size: 13px; font-style: normal; letter-spacing: -0.01em; }
+h1, h2 { /*font-size: 13px; font-weight: normal; */ }
+a { text-decoration: none; }
+
+/* Layout */
+
+body { padding: 0px 0px 40px; text-align: center; }
+div#container { margin: 0px auto; width: 1280px; padding: 25px 20px; text-align: left; 
+	background:#fff;		
+/*	background: url('/images/grid-bg.gif') 20px 0px;*/
+}
+
+.col { float: left; margin: 0px 0px 0px 20px; padding: 0px; }
+.col .col { margin: 0px; }
+
+.one { width: 60px; }
+.two { width: 140px; }
+.three { width: 220px; }
+.four { width: 300px; }
+.five { width: 380px; }
+.six { width: 460px; }
+.seven { width: 700px; }
+.eight { width: 800px; }
+.nine { width: 900px; }
+.ten { width: 100px; }
+.eleven { width: 1260px; }
+.twelve { width: 940px; }
+
+h1 em, h2 em { display: block; }
+
+p, h2 { margin: 0px 0px 5px; }
+hr { display: block; clear: both; margin: 0px 0px 30px; padding: 0px; height: 0px; overflow: hidden; visibility: hidden; }
+a img { border: 0px; }
+.col hr { margin: 0px 0px 15px; }
+
+h2 { overflow: hidden; }
+input#filter { display: inline; width: auto; padding: 1px 0px; border: 0px; background: #eee; font-size: inherit; color: inherit; }
+
+div#content ul.project-list { margin: 0px 0px 0px 20px; padding: 0px; list-style: none; width: 840px; }
+div#content ul.project-list li { margin: 0px 20px -1px 0px; float: left; }
+ul.project-list div.thumbnail a { border: 0px; }
+ul.project-list div.summary { margin: 0px 0px 0px 20px; }
+
+h2.title, div#content p.category, div#content ul.project-list li, div.description, p.para, div#images, div#media { /*border-top: 1px solid #ccc;*/ padding: 20px 0px 0px; }
+div#content ul.project-list li { /*border-bottom: 1px solid #ccc;*/ padding: 20px 0px;  height:199px; overflow:hidden; }
+
+div#media { overflow: hidden; }
+div.media { margin: 0px 0px 10px; }
+
+div#content div.description { margin: 0px 0px 0px 20px; }
+div.description div#media { margin: 0px 0px 10px; border: 0px; padding: 0px; }
+
+p#footer { margin: 0px 0px 0px 340px; display: inline; line-height: 1.4;  background:#fff; padding-left:40px;padding-right:40px; padding-top:40px; padding-bottom:40px;}
+p#footer em { display: block; }
+
+
+a.atom-rss { margin: 0px 0px 0px 6px; padding: 2px 3px 0px; font-size: 0.93em; letter-spacing: 0.08em; background: #ddd; }
+ul#navigation
+{
+	list-style-type: square;
+}
+
+ol#navigation
+{
+	list-style-type: square;	
+}
+ol#navigation a{
+	border:none;
+}
+
+
+ol#navigation li {
+margin: 0em 1.5em 0.4em 1.25em;
+padding: 0px 0px 4px 0px;
+border-bottom: 1px solid #ccc;
+}
+
+
+div.thumbnail
+{
+/*box-shadow: 10px 10px 5px #888888;*/
+}
+
